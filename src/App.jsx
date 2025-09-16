@@ -6,7 +6,7 @@ import Home from "./page/Home.jsx"
 
 function App() {
   return (
-    <div className="app-container fullscreen">
+    <div className="app-container fullscreen px-5">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

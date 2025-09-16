@@ -3,15 +3,15 @@ import { useNavigate } from "react-router-dom"
 const Home = () => {
   const navigate = useNavigate()
   return (
-    <div className="p-3 mb-2 text-white">
-      <nav className="bg-gray-900 p-4 mb-3 rounded-4">
+    <div className="p-3 px-5 mb-2  text-white">
+      <nav className="bg-light shadow p-4 mb-3 rounded-4">
         <div className="container mx-auto flex justify-between items-center">
-          <span className="text-white text-xl font-bold">Navbar</span>
+          <span className="text-dark text-xl font-bold">Navbar</span>
           <div className="space-x-4">
-            <button className="text-white hover:text-blue-400 px-3 py-2 rounded" onClick={() => navigate("/")}>
+            <button className="text-dark hover:text-blue-400 bg-light px-3 py-2 rounded" onClick={() => navigate("/")}>
               Home
             </button>
-            <button className="text-white hover:text-blue-400 px-3 py-2 rounded" onClick={() => navigate("/examresul")}>
+            <button className="text-dark hover:text-blue-400 bg-light px-3 py-2 rounded" onClick={() => navigate("/examresul")}>
               Exam Result
             </button>
           </div>

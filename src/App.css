@@ -4,6 +4,8 @@
   background-color: #F7F7FF;
   min-height: 100vh;
   color: white;
+  border-radius: 8px;
+  padding: 20px;
 }
 .fullscreen {
   min-height: 100vh;
